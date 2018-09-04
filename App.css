@@ -1,0 +1,90 @@
+.header-color{
+    background: #1a2a6c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+body {
+    background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.landing-grid{
+    /* background: #1a2a6c;  fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+
+.avatar-img{
+    height: 250px;
+    width: 180px;
+    padding-top: 5em;
+}
+.banner-text{
+    background-color: black;
+    opacity: .6;
+    width: 75%;
+    margin: auto;
+    border-radius:10px;
+}
+.banner-text h1{
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+}
+.banner-text hr{
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+}
+.banner-text p{
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+}
+.social-links{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+.social-links i {
+    color: white; 
+    font-size: 5em;
+    padding: 8px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .landing-grid{
+    /* background: #1a2a6c;  fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #fdbb2d, #b21f1f, #1a2a6c);W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: fixed;
+    text-align: center;
+    width: 100%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .example {background: pink;}
+}
